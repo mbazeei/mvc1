@@ -10,5 +10,5 @@ import UIKit
 class Theme {
     static let FontColor = UIColor(named: "FontColor")
     static let BackgroundColor = UIColor(named: "BackgroundColor")
-    static let Tine = UIColor(named: "Tine")
+    static let TineColor = UIColor(named: "Tine")
 }

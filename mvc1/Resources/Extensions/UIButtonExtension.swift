@@ -13,7 +13,7 @@ extension UIButton {
         layer.opacity = 0
         layoutIfNeeded()
         UIView.animate(withDuration: 1.2, delay: 0, usingSpringWithDamping: 0.1, initialSpringVelocity: 0, options: [], animations: {
-            self.backgroundColor = Theme.Tine
+            self.backgroundColor = Theme.TineColor
             self.layer.cornerRadius = self.frame.height / 2
             self.layer.shadowOpacity = 0.25
             self.layer.shadowRadius = 5

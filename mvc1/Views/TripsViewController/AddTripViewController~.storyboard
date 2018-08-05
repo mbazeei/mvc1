@@ -61,7 +61,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Mri-6w-c03" kind="presentation" id="Mkd-Il-avT"/>
+                                    <segue destination="FAq-QC-Gzr" kind="presentation" id="Mkd-Il-avT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -77,11 +77,18 @@
             </objects>
             <point key="canvasLocation" x="13.6" y="54.679802955665025"/>
         </scene>
-        <!--AddTripViewController-->
-        <scene sceneID="txe-Di-XXG">
+        <!--View Controller-->
+        <scene sceneID="FKV-94-qOh">
             <objects>
-                <viewControllerPlaceholder storyboardName="AddTripViewController" id="Mri-6w-c03" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZyX-W3-6pW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="FAq-QC-Gzr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PyA-82-Clb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96539235341972507" green="0.96539235341972507" blue="0.96539235341972507" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="Zdk-ft-RRx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aCs-EB-2rs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="780" y="55"/>
         </scene>
