@@ -10,7 +10,7 @@ import Foundation
 class TripFunctions {
     
     static func Create(tripModel : TripModel){
-        
+        StoreData.tripsModels.append(tripModel)
     }
     
     static func Read(completion : @escaping () -> ()){

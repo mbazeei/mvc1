@@ -77,6 +77,15 @@
 			path = CustomControl;
 			sourceTree = "<group>";
 		};
+		7E23C2822116B22100018B4B /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				7E23C27A2112C30500018B4B /* AddTripController */,
+				7EEC628220EB7F2C00DA49BE /* TripsViewController */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
 		7EEC621E20EB772C00DA49BE = {
 			isa = PBXGroup;
 			children = (
@@ -128,8 +137,7 @@
 		7EEC628120EB7F2200DA49BE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7E23C27A2112C30500018B4B /* AddTripController */,
-				7EEC628220EB7F2C00DA49BE /* TripsViewController */,
+				7E23C2822116B22100018B4B /* Trip */,
 			);
 			path = Views;
 			sourceTree = "<group>";

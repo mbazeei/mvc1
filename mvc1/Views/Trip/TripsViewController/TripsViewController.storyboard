@@ -61,7 +61,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Mri-6w-c03" kind="presentation" id="Mkd-Il-avT"/>
+                                    <segue destination="Mri-6w-c03" kind="presentation" identifier="toAddTripSegue" id="Mkd-Il-avT"/>
                                 </connections>
                             </button>
                         </subviews>
